@@ -3,7 +3,7 @@ GPG keys help you to get your contribution be verified and that build trust amon
 **Step 1:** Open Git Bash
 
 **Step 2:** Type 
-$ gpg --gen-key
+$ gpg --full-generate-key
 
 Next, select default settings or of your choice and hit enter to generate the GPG Key.
 
