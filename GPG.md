@@ -32,9 +32,12 @@ ending with -----END PGP PUBLIC KEY BLOCK-----.
 Type
 $ git config --global user.signingkey (copied key id)
 
+Also,
+
+> git config --global commit.gpgSign true
 
 After following these steps successfully, you could see verified sign for your future commits.
 
 
 
-Refernce: [Signing commits with GPG](https://help.github.com/articles/signing-commits-with-gpg/)
+Reference: [Signing commits with GPG](https://help.github.com/articles/signing-commits-with-gpg/)
